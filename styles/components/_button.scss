@@ -1,0 +1,24 @@
+// buttons
+
+.btn_def {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 130px 45px;
+  border: none;
+  background-color: $color-primary;
+  color: $color-white;
+
+  &--nav {
+    padding: 8px 36px;
+  }
+  &--hero {
+    padding: 13px 43px;
+  }
+
+  @include transitions($args);
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background-color: $color-ebony;
+  }
+}

@@ -1,0 +1,67 @@
+// nav
+
+.topper {
+  display: block;
+  height: 40px;
+
+  color: $color-white;
+  background-color: $color-primary;
+
+  .row {
+    margin: 0 20px 0 49px;
+
+    .social-icons {
+      padding: 6px 0 5px 11px;
+
+      .icon {
+        padding: 0 10px 0 11px;
+      }
+    }
+  }
+
+  &__left {
+    line-height: 35px;
+  }
+
+  &__mail {
+    padding: 3px 7px 0 0;
+  }
+  &__mail-text {
+    letter-spacing: 0.4px;
+  }
+
+  &__right {
+    padding: 8px 80px 0 65px;
+    margin-top: -2px;
+  }
+
+  &__phone {
+    padding: 0 5px;
+  }
+
+  &__phone-text {
+    line-height: 10px;
+  }
+
+  &__follow-text {
+    line-height: 41px;
+  }
+}
+
+.navbar {
+  margin-top: 9px;
+  &__brand {
+    margin: 0 0 0 67px;
+  }
+
+  &__items {
+    padding-left: 325px;
+  }
+  &__link {
+    color: $color-cello;
+    padding: 0 17px;
+  }
+  &__btn {
+    padding-right: 62px;
+  }
+}

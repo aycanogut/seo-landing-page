@@ -1,0 +1,24 @@
+// case-studies
+
+.case {
+  &__heading {
+    padding: 103px 0 70px 0;
+  }
+
+  &__header {
+    padding-top: 16px;
+  }
+
+  &__card-item-bottom {
+    width: 306px;
+    height: 153px;
+    border: 1px solid #d8d8d8;
+  }
+  &__date {
+    display: block;
+    padding: 25px 0 0px 30px;
+  }
+  &__title {
+    padding: 21px 30px 27px 30px;
+  }
+}

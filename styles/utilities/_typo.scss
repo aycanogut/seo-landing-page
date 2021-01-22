@@ -1,0 +1,111 @@
+// typo
+
+// numbers-title / services-title / case-title / testimonials-title / contact-title
+.title {
+  font-size: 34px;
+  font-weight: $regular;
+  line-height: 51px;
+  color: $color-ebony;
+}
+
+// numbers-text / services-text / testimonials-text  / contact-text / footer-text / footer-links
+.text {
+  font-size: 15px;
+  font-weight: $regular;
+  line-height: 24px;
+  color: $color-pale;
+}
+
+// numbers-top / services-top / case-top / testimonials-top
+.top {
+  font-size: 18px;
+  font-weight: $medium;
+  line-height: 27px;
+  color: $color-primary;
+}
+
+// topper-mail / topper-phone-text / case-date / footer-social-text
+.small-text {
+  font-size: 13px;
+}
+
+// buttons
+.btn_def {
+  font-size: 16px;
+  font-weight: $light;
+  line-height: 24px;
+}
+
+// !nav
+.navbar {
+  &__logo {
+    font-size: 18px;
+    font-weight: $bold;
+    line-height: 22px;
+  }
+  &__link {
+    font-size: 16px;
+    font-weight: $regular;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+}
+
+// !hero
+.hero {
+  &__title {
+    font-size: 48px;
+    font-weight: $regular;
+    line-height: 54px;
+    letter-spacing: 2px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: $regular;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+  }
+}
+
+// !numbers
+.numbers {
+  &__number {
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 56px;
+  }
+  &__title {
+    font-size: 18px;
+    font-weight: $medium;
+    line-height: 27px;
+  }
+}
+
+// !services
+.services {
+  &__title {
+    font-size: 24px;
+    font-weight: $medium;
+    line-height: 32px;
+    color: $color-ebony;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: $light;
+    line-height: 28px;
+    color: $color-pale;
+  }
+}
+
+// !case
+.case {
+  &__date {
+    color: $color-pale;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: $light;
+    line-height: 32px;
+    color: $color-primary;
+  }
+}

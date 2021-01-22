@@ -1,0 +1,30 @@
+// services-list
+
+.services {
+  height: 1153px;
+  padding: 0 135px;
+
+  &__heading {
+    padding: 100px 0 42px 0;
+  }
+
+  &__header {
+    padding: 20px 0;
+  }
+
+  &__card-item {
+    width: 306px;
+    height: 343px;
+    padding: 25px 0 10px 0;
+    border: 1px solid black;
+    margin-bottom: 60px;
+  }
+
+  &__title {
+    padding: 20px 0 14px 0;
+  }
+
+  &__text {
+    padding-bottom: 2px;
+  }
+}

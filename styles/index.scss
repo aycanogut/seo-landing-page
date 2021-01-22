@@ -1,0 +1,26 @@
+// global stylesheet
+
+// base
+@import "base/normalize";
+@import "base/base";
+@import "base/fonts";
+
+// utilities
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "utilities/typo";
+
+// components
+@import "components/card";
+@import "components/icon";
+@import "components/button";
+
+// section
+@import "section/nav";
+@import "section/hero";
+@import "section/numbers";
+@import "section/services";
+@import "section/case";
+@import "section/testimonials";
+@import "section/contact";
+@import "section/footer";
