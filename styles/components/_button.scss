@@ -12,7 +12,10 @@
     padding: 8px 36px;
   }
   &--hero {
-    padding: 13px 43px;
+    padding: 13px 35px;
+  }
+  &--contact {
+    padding: 12px 32px;
   }
 
   @include transitions($args);

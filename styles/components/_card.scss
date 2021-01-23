@@ -1,1 +1,93 @@
 // cards
+
+.cards {
+  // !numbers-card
+  &--numbers {
+    width: 253px;
+    height: 180px;
+    border-radius: 18px;
+    background-color: $color-white;
+    padding: 45px 0;
+    margin: 0 15px;
+  }
+  &__numbers__number {
+    color: $color-primary;
+  }
+  &__numbers__title {
+    padding-top: 15px;
+  }
+
+  // !services-card
+  &--services {
+    width: 306px;
+    height: 343px;
+    padding: 25px 0 10px 0;
+    border: 1px solid black;
+    margin-bottom: 60px;
+  }
+
+  &__services__title {
+    padding: 20px 0 14px 0;
+  }
+
+  &__services__text {
+    padding-bottom: 2px;
+  }
+
+  // !case-card
+  &--case {
+    width: 306px;
+  }
+
+  &__case__image {
+  }
+
+  &__case__bottom {
+    border: 1px solid rgba(rgb(216, 216, 216), 0.5);
+  }
+
+  &__case__date {
+    display: block;
+    padding: 23px 0 0px 29px;
+    color: $color-pale;
+  }
+  &__case__title {
+    padding: 20px 30px 18px 30px;
+  }
+
+  // !testimonials-card
+  &--testimonials {
+    width: 445px;
+    height: 268px;
+    border-radius: 8px;
+    background-color: $color-white;
+    margin-bottom: 30px;
+  }
+
+  &__testimonials__text {
+    padding: 30px 0px 0px 30px;
+  }
+  &__testimonials__person-card {
+    display: flex;
+    padding: 10px 110px 30px 28px;
+
+    .person-avatar {
+      height: 64px;
+      width: 64px;
+      background-color: $color-nobel;
+      border-radius: 50%;
+      border: 2px solid $color-white;
+      box-shadow: 0px 18px 35px rgba(49, 88, 114, 0.3);
+    }
+
+    .person-text {
+      padding: 7px 0 0 17px;
+    }
+    .person-name {
+      color: $color-black;
+    }
+    .person-title {
+      color: #b4b4b4;
+    }
+  }
+}

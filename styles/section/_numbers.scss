@@ -2,8 +2,7 @@
 
 .numbers {
   height: 600px;
-
-  background-color: #ecf5ff;
+  background-color: $color-zumthor;
   text-align: center;
 
   &__heading {
@@ -14,22 +13,5 @@
   }
   &__header {
     padding: 20px 0 21px 0;
-  }
-
-  &__box-item {
-    width: 253px;
-    height: 180px;
-    background-color: $color-white;
-    border-radius: 18px;
-    padding: 45px 0;
-    margin: 0 15px;
-  }
-
-  &__number {
-    color: $color-primary;
-  }
-
-  &__title {
-    padding-top: 15px;
   }
 }

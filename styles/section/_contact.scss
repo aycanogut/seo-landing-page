@@ -1,1 +1,40 @@
 // contact
+
+.contact {
+  height: 558px;
+  &__header {
+    padding: 100px 0 0 65px;
+  }
+  &__text {
+    padding: 30px 0 0 0;
+  }
+
+  &__phone {
+    margin-top: -35px;
+    padding-left: 65px;
+  }
+
+  &__formaction {
+    padding: 109px 70px 29px 0;
+  }
+  &__mainLoginInput {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  &__mainLoginInput:focus {
+    outline-width: 0;
+  }
+
+  input:nth-child(2) {
+    padding-top: 42px;
+  }
+
+  textarea {
+    padding-top: 42px;
+  }
+
+  &__btn {
+    padding-top: 32px;
+  }
+}

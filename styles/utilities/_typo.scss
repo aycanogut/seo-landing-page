@@ -8,12 +8,12 @@
   color: $color-ebony;
 }
 
+// !bu sınıftaki textleri bul ve renk ver. tipografi dosyasındaki renkleri temizle ve renkleri section kısımlarında ver.
 // numbers-text / services-text / testimonials-text  / contact-text / footer-text / footer-links
 .text {
   font-size: 15px;
   font-weight: $regular;
   line-height: 24px;
-  color: $color-pale;
 }
 
 // numbers-top / services-top / case-top / testimonials-top
@@ -68,13 +68,13 @@
 }
 
 // !numbers
-.numbers {
-  &__number {
+.cards {
+  &__numbers__number {
     font-size: 48px;
     font-weight: 100;
     line-height: 56px;
   }
-  &__title {
+  &__numbers__title {
     font-size: 18px;
     font-weight: $medium;
     line-height: 27px;
@@ -82,14 +82,14 @@
 }
 
 // !services
-.services {
-  &__title {
+.cards {
+  &__services__title {
     font-size: 24px;
     font-weight: $medium;
     line-height: 32px;
     color: $color-ebony;
   }
-  &__text {
+  &__services__text {
     font-size: 18px;
     font-weight: $light;
     line-height: 28px;
@@ -98,14 +98,48 @@
 }
 
 // !case
-.case {
-  &__date {
+.cards {
+  &__case__date {
     color: $color-pale;
   }
-  &__title {
+  &__case__title {
     font-size: 24px;
     font-weight: $light;
     line-height: 32px;
+    color: $color-primary;
+  }
+}
+
+// !testimonials
+.person-name {
+  font-size: 15px;
+  font-weight: $bold;
+  line-height: 24px;
+}
+.person-title {
+  font-size: 15px;
+  font-weight: $regular;
+  line-height: 24px;
+}
+
+// !contact
+.contact {
+  &__heading {
+    font-size: 34px;
+    font-weight: $regular;
+    line-height: 51px;
+  }
+
+  .phone {
+    font-size: 16px;
+    font-weight: $regular;
+    line-height: 24px;
+  }
+
+  .number {
+    font-size: 15px;
+    font-weight: $light;
+    line-height: 24px;
     color: $color-primary;
   }
 }

@@ -1,1 +1,35 @@
 // testimonials
+
+.testimonials {
+  height: 1081px;
+  background-color: $color-zumthor;
+
+  &__heading {
+    padding: 98px 0 60px 95px;
+  }
+  &__top {
+    padding-bottom: 19px;
+  }
+
+  &__cards:nth-child(odd) {
+    margin-top: 146px;
+  }
+  &__cards:nth-child(even) {
+    margin-left: 95px;
+  }
+
+  &__bottom {
+    display: flex;
+  }
+
+  &__logo {
+    padding: 30px 24px 0 24px;
+  }
+
+  img:nth-child(1) {
+    margin-right: -16px;
+  }
+  img:nth-child(5) {
+    margin-left: -15px;
+  }
+}
