@@ -5,7 +5,13 @@
   &__header {
     padding: 100px 0 0 65px;
   }
+
+  &__heading {
+    color: $color-cello;
+  }
+
   &__text {
+    color: $color-pale;
     padding: 30px 0 0 0;
   }
 
@@ -36,5 +42,9 @@
 
   &__btn {
     padding-top: 32px;
+  }
+
+  .number {
+    color: $color-primary;
   }
 }

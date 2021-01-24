@@ -7,9 +7,15 @@
     margin-top: 125px;
   }
 
+  &__title {
+    color: $color-ebony;
+  }
+
   &__text {
     padding: 22px 0;
+    color: $color-ebony;
   }
+
   // &__illustration {
   //   width: 525px;
   //   height: 421px;
@@ -25,14 +31,18 @@
   // }
 
   &__col {
-    padding: 65px 20px 0 0;
-    margin-left: -50px;
+    position: absolute;
   }
   &__illustration {
-    width: 609px;
+    position: relative;
+    top: 47px;
+    left: 534px;
+
+    width: 110%;
     height: 466px;
-    background-image: url("../assets/img/hero/illustration.svg"),
-      url("../assets/img/hero/ornament.svg");
-    background-repeat: no-repeat, no-repeat;
+
+    background-image: url("../assets/img/hero/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-clip: padding-box;
   }
 }

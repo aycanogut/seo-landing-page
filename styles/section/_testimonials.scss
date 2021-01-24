@@ -8,7 +8,12 @@
     padding: 98px 0 60px 95px;
   }
   &__top {
+    color: $color-primary;
     padding-bottom: 19px;
+  }
+
+  &__header {
+    color: $color-ebony;
   }
 
   &__cards:nth-child(odd) {
@@ -31,5 +36,17 @@
   }
   img:nth-child(5) {
     margin-left: -15px;
+  }
+
+  .cards__testimonials__text {
+    color: $color-pale;
+  }
+
+  .person-text {
+    color: $color-black;
+  }
+
+  .person-name {
+    color: $color-ebony;
   }
 }

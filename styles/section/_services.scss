@@ -8,7 +8,20 @@
     padding: 100px 0 42px 0;
   }
 
+  &__top {
+    color: $color-primary;
+  }
+
   &__header {
     padding: 20px 0;
+    color: $color-ebony;
+  }
+
+  .cards__services__title {
+    color: $color-ebony;
+  }
+
+  .cards__services__text {
+    color: $color-pale;
   }
 }

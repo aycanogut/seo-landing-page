@@ -8,3 +8,40 @@ $args: all 0.3s ease-in;
   -o-transition: $args;
   transition: $args;
 }
+
+// !box-shadows
+
+// numbers-card
+$numbers-b-shadow: 0px 2px 30px rgba(69, 158, 255, 0.2);
+@mixin box-shadow($numbers-b-shadow) {
+  -webkit-box-shadow: $numbers-b-shadow;
+  -moz-box-shadow: $numbers-b-shadow;
+  box-shadow: $numbers-b-shadow;
+}
+
+// services-card-item
+$services-b-shadow: 0px 8px 15px -10px rgba(68, 158, 255, 0.2);
+
+@mixin box-shadow($services-b-shadow) {
+  -webkit-box-shadow: $services-b-shadow;
+  -moz-box-shadow: $services-b-shadow;
+  box-shadow: $services-b-shadow;
+}
+
+// testimonials-card
+$testimonials-card-shadow: 1px 1px 2px 1px rgba(69, 158, 255, 0.06);
+
+@mixin box-shadow($testimonials-card-shadow) {
+  -webkit-box-shadow: $testimonials-card-shadow;
+  -moz-box-shadow: $testimonials-card-shadow;
+  box-shadow: $testimonials-card-shadow;
+}
+
+// testimonials-avatar
+$testimonials-avatar-shadow: 0px 18px 35px rgba(49, 88, 114, 0.3);
+
+@mixin box-shadow($testimonials-avatar-shadow) {
+  -webkit-box-shadow: $testimonials-avatar-shadow;
+  -moz-box-shadow: $testimonials-avatar-shadow;
+  box-shadow: $testimonials-avatar-shadow;
+}

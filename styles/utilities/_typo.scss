@@ -1,145 +1,269 @@
 // typo
 
-// numbers-title / services-title / case-title / testimonials-title / contact-title
-.title {
-  font-size: 34px;
-  font-weight: $regular;
-  line-height: 51px;
-  color: $color-ebony;
-}
+// !font-sizes
 
-// !bu sınıftaki textleri bul ve renk ver. tipografi dosyasındaki renkleri temizle ve renkleri section kısımlarında ver.
-// numbers-text / services-text / testimonials-text  / contact-text / footer-text / footer-links
-.text {
-  font-size: 15px;
-  font-weight: $regular;
-  line-height: 24px;
-}
-
-// numbers-top / services-top / case-top / testimonials-top
-.top {
-  font-size: 18px;
-  font-weight: $medium;
-  line-height: 27px;
-  color: $color-primary;
-}
-
-// topper-mail / topper-phone-text / case-date / footer-social-text
-.small-text {
+// topper-mail / topper-phone-text / topper-follow-text / case-date / footer-social-text
+.font-13 {
   font-size: 13px;
 }
 
-// buttons
-.btn_def {
+.font-15 {
+  font-size: 15px;
+}
+
+.font-16 {
   font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-34 {
+  font-size: 34px;
+}
+
+.font-48 {
+  font-size: 48px;
+}
+
+// !font-weights
+
+// topper-mail / topper-phone-text / topper-follow-text
+.weight-lighter {
+  font-weight: $extra-light;
+}
+
+.weight-light {
   font-weight: $light;
-  line-height: 24px;
 }
 
-// !nav
-.navbar {
-  &__logo {
-    font-size: 18px;
-    font-weight: $bold;
-    line-height: 22px;
-  }
-  &__link {
-    font-size: 16px;
-    font-weight: $regular;
-    line-height: 24px;
-    letter-spacing: 0;
-  }
-}
-
-// !hero
-.hero {
-  &__title {
-    font-size: 48px;
-    font-weight: $regular;
-    line-height: 54px;
-    letter-spacing: 2px;
-  }
-  &__text {
-    font-size: 18px;
-    font-weight: $regular;
-    line-height: 27px;
-    letter-spacing: 0.2px;
-  }
-}
-
-// !numbers
-.cards {
-  &__numbers__number {
-    font-size: 48px;
-    font-weight: 100;
-    line-height: 56px;
-  }
-  &__numbers__title {
-    font-size: 18px;
-    font-weight: $medium;
-    line-height: 27px;
-  }
-}
-
-// !services
-.cards {
-  &__services__title {
-    font-size: 24px;
-    font-weight: $medium;
-    line-height: 32px;
-    color: $color-ebony;
-  }
-  &__services__text {
-    font-size: 18px;
-    font-weight: $light;
-    line-height: 28px;
-    color: $color-pale;
-  }
-}
-
-// !case
-.cards {
-  &__case__date {
-    color: $color-pale;
-  }
-  &__case__title {
-    font-size: 24px;
-    font-weight: $light;
-    line-height: 32px;
-    color: $color-primary;
-  }
-}
-
-// !testimonials
-.person-name {
-  font-size: 15px;
-  font-weight: $bold;
-  line-height: 24px;
-}
-.person-title {
-  font-size: 15px;
+.weighth-regular {
   font-weight: $regular;
+}
+
+.weight-medium {
+  font-weight: $medium;
+}
+
+.weight-sbold {
+  font-weight: $semi-bold;
+}
+
+.weight-bold {
+  font-weight: $bold;
+}
+
+// !line-heights
+
+// topper-mail / topper-phone-text / topper-follow-text
+.line-16 {
+  line-height: 16px;
+}
+
+.line-22 {
+  line-height: 22px;
+}
+
+.line-24 {
   line-height: 24px;
 }
 
-// !contact
-.contact {
-  &__heading {
-    font-size: 34px;
-    font-weight: $regular;
-    line-height: 51px;
-  }
-
-  .phone {
-    font-size: 16px;
-    font-weight: $regular;
-    line-height: 24px;
-  }
-
-  .number {
-    font-size: 15px;
-    font-weight: $light;
-    line-height: 24px;
-    color: $color-primary;
-  }
+.line-27 {
+  line-height: 27px;
 }
+
+.line-28 {
+  line-height: 28px;
+}
+
+.line-32 {
+  line-height: 32px;
+}
+
+.line-51 {
+  line-height: 51px;
+}
+
+.line-54 {
+  line-height: 54px;
+}
+
+.line-56 {
+  line-height: 56px;
+}
+
+// !eski typo
+// // numbers-title / services-title / case-title / testimonials-title / contact-title
+// .title {
+//   font-size: 34px;
+//   font-weight: $regular;
+//   line-height: 51px;
+//   color: $color-ebony;
+// }
+
+// // !bu sınıftaki textleri bul ve renk ver. tipografi dosyasındaki renkleri temizle ve renkleri section kısımlarında ver.
+// // numbers-text / services-text / testimonials-text  / contact-text / footer-text / footer-links
+// .text {
+//   font-size: 15px;
+//   font-weight: $regular;
+//   line-height: 24px;
+// }
+
+// // numbers-top / services-top / case-top / testimonials-top
+// .top {
+//   font-size: 18px;
+//   font-weight: $medium;
+//   line-height: 27px;
+//   color: $color-primary;
+// }
+
+// // .small-text {
+// //   font-size: 13px;
+// // }
+
+// // buttons
+// .btn_def {
+//   font-size: 16px;
+//   font-weight: $light;
+//   line-height: 24px;
+// }
+
+// // !nav
+// .navbar {
+//   &__logo {
+//     font-size: 18px;
+//     font-weight: $bold;
+//     line-height: 22px;
+//   }
+//   &__link {
+//     font-size: 16px;
+//     font-weight: $regular;
+//     line-height: 24px;
+//     letter-spacing: 0;
+//   }
+// }
+
+// // !hero
+// .hero {
+//   &__title {
+//     font-size: 48px;
+//     font-weight: $regular;
+//     line-height: 54px;
+//     letter-spacing: 2px;
+//   }
+//   &__text {
+//     font-size: 18px;
+//     font-weight: $regular;
+//     line-height: 27px;
+//     letter-spacing: 0.2px;
+//   }
+// }
+
+// // !numbers
+// .cards {
+//   &__numbers__number {
+//     font-size: 48px;
+//     font-weight: 100;
+//     line-height: 56px;
+//   }
+//   &__numbers__title {
+//     font-size: 18px;
+//     font-weight: $medium;
+//     line-height: 27px;
+//   }
+// }
+
+// // !services
+// .cards {
+//   &__services__title {
+//     font-size: 24px;
+//     font-weight: $medium;
+//     line-height: 32px;
+//     color: $color-ebony;
+//   }
+//   &__services__text {
+//     font-size: 18px;
+//     font-weight: $light;
+//     line-height: 28px;
+//     color: $color-pale;
+//   }
+// }
+
+// // !case
+// .cards {
+//   &__case__date {
+//     color: $color-pale;
+//   }
+//   &__case__title {
+//     font-size: 24px;
+//     font-weight: $light;
+//     line-height: 32px;
+//     color: $color-primary;
+//   }
+// }
+
+// // !testimonials
+// .person-name {
+//   font-size: 15px;
+//   font-weight: $bold;
+//   line-height: 24px;
+// }
+// .person-title {
+//   font-size: 15px;
+//   font-weight: $regular;
+//   line-height: 24px;
+// }
+
+// // !contact
+// .contact {
+//   &__heading {
+//     font-size: 34px;
+//     font-weight: $regular;
+//     line-height: 51px;
+//   }
+
+//   .phone {
+//     font-size: 16px;
+//     font-weight: $regular;
+//     line-height: 24px;
+//   }
+
+//   .number {
+//     font-size: 15px;
+//     font-weight: $light;
+//     line-height: 24px;
+//     color: $color-primary;
+//   }
+// }
+
+// // !footer
+// .footer {
+//   &__wrapper {
+//     padding: 97px 0 0 95px;
+//   }
+//   &__header {
+//     font-size: 24px;
+//     font-weight: $regular;
+//     line-height: 32px;
+//     letter-spacing: 1.2px;
+//   }
+//   &__text {
+//     font-weight: $extra-light;
+//   }
+
+//   &__social-text {
+//     font-size: 13px;
+//     font-weight: $regular;
+//     line-height: 16px;
+//   }
+
+//   &__link {
+//     font-weight: $extra-light;
+//     letter-spacing: 0.2px;
+//   }
+// }
