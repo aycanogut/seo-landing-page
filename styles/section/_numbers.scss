@@ -10,16 +10,20 @@
   }
 
   &__top {
+    padding-left: 2px;
     color: $color-primary;
+    letter-spacing: 0.2px;
   }
 
   &__header {
-    padding: 20px 0 21px 0;
+    padding: 22px 0 28px 0;
     color: $color-ebony;
+    letter-spacing: 0.3px;
   }
 
   &__text {
     color: $color-pale;
+    padding-left: 1px;
   }
 
   &__number {

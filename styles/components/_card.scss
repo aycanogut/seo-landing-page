@@ -8,14 +8,16 @@
     border-radius: 18px;
     background-color: $color-white;
     @include box-shadow($numbers-b-shadow);
-    padding: 45px 0;
+
+    padding: 44px 0;
     margin: 0 15px;
   }
   &__numbers__number {
     color: $color-primary;
   }
   &__numbers__title {
-    padding-top: 15px;
+    padding-top: 14px;
+    color: $color-ebony;
   }
 
   // !services-card
@@ -27,21 +29,24 @@
     @include box-shadow($services-b-shadow);
     margin-bottom: 60px;
   }
-
+  &__services__icon {
+    padding-top: 6px;
+  }
   &__services__title {
-    padding: 20px 0 14px 0;
+    padding: 20px 0 13px 1px;
+    color: $color-ebony;
   }
 
   &__services__text {
-    padding-bottom: 2px;
+    padding-left: 1px;
+    padding-bottom: 3px;
+    letter-spacing: 0.2px;
+    color: $color-pale;
   }
 
   // !case-card
   &--case {
     width: 306px;
-  }
-
-  &__case__image {
   }
 
   &__case__bottom {
@@ -50,11 +55,13 @@
 
   &__case__date {
     display: block;
-    padding: 23px 0 0px 29px;
+    padding: 24px 0 0px 29px;
     color: $color-pale;
   }
   &__case__title {
-    padding: 20px 30px 18px 30px;
+    padding: 21px 30px 18px 29px;
+    color: $color-primary;
+    letter-spacing: 0.2px;
   }
 
   // !testimonials-card
@@ -68,11 +75,11 @@
   }
 
   &__testimonials__text {
-    padding: 30px 0px 0px 30px;
+    padding: 31px 0px 0px 30px;
   }
   &__testimonials__person-card {
     display: flex;
-    padding: 10px 110px 30px 28px;
+    padding: 9px 110px 30px 28px;
 
     .person-avatar {
       @include box-shadow($testimonials-avatar-shadow);
@@ -84,7 +91,7 @@
     }
 
     .person-text {
-      padding: 7px 0 0 17px;
+      padding: 7px 0 0 18px;
     }
     .person-name {
       color: $color-black;

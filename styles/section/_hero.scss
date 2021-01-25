@@ -30,15 +30,12 @@
   //   background-position: 100px -300px;
   // }
 
-  &__col {
-    position: absolute;
-  }
   &__illustration {
     position: relative;
     top: 47px;
-    left: 534px;
+    left: -36px;
 
-    width: 110%;
+    width: 150%;
     height: 466px;
 
     background-image: url("../assets/img/hero/hero-bg.svg");

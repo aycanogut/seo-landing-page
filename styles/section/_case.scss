@@ -7,11 +7,14 @@
   }
   &__top {
     color: $color-primary;
+    letter-spacing: 0.2px;
+    padding-left: 5px;
   }
 
   &__header {
     color: $color-ebony;
-    padding-top: 16px;
+    padding: 16px 0 0 2px;
+    letter-spacing: 0.3px;
   }
 
   &__wrapper {
@@ -24,13 +27,5 @@
 
   &__column:nth-last-child(1) {
     margin-left: -44px;
-  }
-
-  .cards__case__date {
-    color: $color-pale;
-  }
-
-  .cards__case__title {
-    color: $color-primary;
   }
 }

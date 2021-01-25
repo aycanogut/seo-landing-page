@@ -7,6 +7,26 @@
   color: $color-white;
   background-color: $color-primary;
 
+  &__left {
+    line-height: 35px;
+    padding-right: 6px;
+    margin-top: -1px;
+  }
+
+  &__icon {
+    padding: 0 7px 0 0;
+  }
+
+  &__right {
+    padding: 2px 80px 0 65px;
+    margin-top: -2px;
+  }
+
+  &__text {
+    line-height: 40px;
+    letter-spacing: 0.4px;
+  }
+
   .row {
     margin: 0 20px 0 49px;
 
@@ -17,34 +37,6 @@
         padding: 0 10px 0 11px;
       }
     }
-  }
-
-  &__left {
-    line-height: 35px;
-  }
-
-  &__mail {
-    padding: 3px 7px 0 0;
-  }
-  &__mail-text {
-    letter-spacing: 0.4px;
-  }
-
-  &__right {
-    padding: 8px 80px 0 65px;
-    margin-top: -2px;
-  }
-
-  &__phone {
-    padding: 0 5px;
-  }
-
-  &__phone-text {
-    line-height: 10px;
-  }
-
-  &__follow-text {
-    line-height: 41px;
   }
 }
 

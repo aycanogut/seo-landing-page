@@ -1,7 +1,14 @@
 {
   "folders": [
-	{
-		"path": "."
+		{
+			"path": "../knife_agency"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "seo-2.0",
+		"liveServer.settings.port": 5501
 	}
-]
 }

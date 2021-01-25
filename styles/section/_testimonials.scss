@@ -9,11 +9,13 @@
   }
   &__top {
     color: $color-primary;
-    padding-bottom: 19px;
+    letter-spacing: 0.2px;
   }
 
   &__header {
     color: $color-ebony;
+    padding: 18px 0 0 0;
+    letter-spacing: 0.4px;
   }
 
   &__cards:nth-child(odd) {
