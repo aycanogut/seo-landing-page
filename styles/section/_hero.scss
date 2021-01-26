@@ -16,20 +16,6 @@
     color: $color-ebony;
   }
 
-  // &__illustration {
-  //   width: 525px;
-  //   height: 421px;
-  //   background-image: url("../assets/img/hero/illustration.svg");
-  //   background-position: center;
-  // }
-  // &__ornament {
-  //   width: 609px;
-  //   height: 466px;
-  //   background-image: url("../assets/img/hero/ornament.svg");
-  //   background-repeat: no-repeat;
-  //   background-position: 100px -300px;
-  // }
-
   &__illustration {
     position: relative;
     top: 47px;
@@ -40,6 +26,5 @@
 
     background-image: url("../assets/img/hero/hero-bg.svg");
     background-repeat: no-repeat;
-    background-clip: padding-box;
   }
 }
