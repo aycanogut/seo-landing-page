@@ -89,6 +89,12 @@
     background-color: $color-white;
     @include box-shadow($testimonials-card-shadow);
     margin-bottom: 30px;
+    @include transitions($args);
+
+    &:hover {
+      @include box-shadow($numbers-b-shadow);
+      @include transitions($args);
+    }
   }
 
   &__testimonials__text {

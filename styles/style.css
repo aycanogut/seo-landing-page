@@ -8766,7 +8766,19 @@ input {
   -webkit-box-shadow: 1px 1px 2px 1px rgba(69, 158, 255, 0.06);
   -moz-box-shadow: 1px 1px 2px 1px rgba(69, 158, 255, 0.06);
   box-shadow: 1px 1px 2px 1px rgba(69, 158, 255, 0.06);
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+  .cards--testimonials:hover {
+    -webkit-box-shadow: 0px 2px 30px rgba(69, 158, 255, 0.2);
+    -moz-box-shadow: 0px 2px 30px rgba(69, 158, 255, 0.2);
+    box-shadow: 0px 2px 30px rgba(69, 158, 255, 0.2);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
 
 .cards__testimonials__text {
   padding: 31px 0px 0px 30px; }
