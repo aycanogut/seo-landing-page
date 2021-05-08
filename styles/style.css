@@ -8829,6 +8829,18 @@ input {
   height: 40px;
   color: #fff;
   background-color: #459eff; }
+  .topper a {
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+    .topper a:hover {
+      color: #000;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in; }
   .topper__left {
     line-height: 35px;
     padding-right: 6px;

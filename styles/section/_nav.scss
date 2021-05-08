@@ -7,6 +7,16 @@
   color: $color-white;
   background-color: $color-primary;
 
+  a {
+    color: $color-white;
+    @include transitions($args);
+
+    &:hover {
+      color: $color-black;
+      @include transitions($args);
+    }
+  }
+
   &__left {
     line-height: 35px;
     padding-right: 6px;
@@ -42,6 +52,7 @@
 
 .navbar {
   margin-top: 9px;
+
   &__brand {
     margin: 0 0 0 67px;
   }
