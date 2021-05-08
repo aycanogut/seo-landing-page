@@ -8,9 +8,15 @@
     border-radius: 18px;
     background-color: $color-white;
     @include box-shadow($numbers-b-shadow);
+    @include transitions($args);
 
     padding: 44px 0;
     margin: 0 15px;
+
+    &:hover {
+      @include box-shadow($services-b-shadow);
+      @include transitions($args);
+    }
   }
 
   &__numbers__number {
