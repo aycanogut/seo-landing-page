@@ -12,9 +12,11 @@
     padding: 44px 0;
     margin: 0 15px;
   }
+
   &__numbers__number {
     color: $color-primary;
   }
+
   &__numbers__title {
     padding-top: 14px;
     color: $color-ebony;
@@ -25,13 +27,21 @@
     width: 306px;
     height: 343px;
     padding: 25px 0 10px 0;
+    @include transitions($args);
 
     @include box-shadow($services-b-shadow);
     margin-bottom: 60px;
+
+    &:hover {
+      @include box-shadow($numbers-b-shadow);
+      @include transitions($args);
+    }
   }
+
   &__services__icon {
     padding-top: 6px;
   }
+
   &__services__title {
     padding: 20px 0 13px 1px;
     color: $color-ebony;
@@ -58,6 +68,7 @@
     padding: 24px 0 0px 29px;
     color: $color-pale;
   }
+
   &__case__title {
     padding: 22px 30px 18px 29px;
     color: $color-primary;
@@ -77,6 +88,7 @@
   &__testimonials__text {
     padding: 31px 0px 0px 30px;
   }
+
   &__testimonials__person-card {
     display: flex;
     padding: 9px 110px 30px 28px;
