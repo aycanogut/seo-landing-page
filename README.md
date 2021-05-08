@@ -10,3 +10,6 @@ This is my first project with front-end technologies. I learned concepts like us
 <br>
 
 ![alt seo-landing-page](https://s3.gifyu.com/images/project.gif)
+
+
+![alt seo-landing-page](https://s3.gifyu.com/images/desktopd9633882591dd2f1.gif)
