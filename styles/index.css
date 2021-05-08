@@ -8600,8 +8600,7 @@ a.text-dark:focus {
 /*# sourceMappingURL=bootstrap.css.map */
 body {
   box-sizing: border-box;
-  font-family: "Livvic", sans-serif;
-  overflow-x: hidden; }
+  font-family: "Livvic", sans-serif; }
 
 ul {
   list-style: none; }
@@ -8874,6 +8873,8 @@ input {
 
 .navbar {
   margin-top: 9px; }
+  .navbar .nav-active {
+    transform: translateX(0%); }
   .navbar__brand {
     margin: 0 0 0 67px; }
   .navbar__logo {
@@ -8885,6 +8886,36 @@ input {
     padding: 0 17px; }
   .navbar__btn {
     padding-right: 62px; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .topper {
+    display: none; }
+  .navbar {
+    padding: 6px; }
+    .navbar__brand {
+      margin: 2px 0 0 0; }
+    .navbar__items {
+      display: flex;
+      justify-content: space-between;
+      padding: 0; }
+    .navbar__link {
+      padding: 0 4px; }
+    .navbar__btn {
+      display: none; }
+    .navbar__collapse {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%; }
+    .navbar .burger-toggler {
+      display: block;
+      cursor: pointer;
+      margin-right: 12px; }
+      .navbar .burger-toggler div {
+        width: 24px;
+        height: 3px;
+        margin: 5px;
+        background-color: #000; } }
 
 .hero {
   height: 547px;
