@@ -8731,7 +8731,19 @@ input {
   color: #6d7783; }
 
 .cards--case {
-  width: 306px; }
+  width: 306px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+  .cards--case:hover {
+    -webkit-box-shadow: 0px 2px 30px rgba(69, 158, 255, 0.2);
+    -moz-box-shadow: 0px 2px 30px rgba(69, 158, 255, 0.2);
+    box-shadow: 0px 2px 30px rgba(69, 158, 255, 0.2);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
 
 .cards__case__bottom {
   border: 1px solid rgba(216, 216, 216, 0.5); }

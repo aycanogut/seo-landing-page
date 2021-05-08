@@ -57,6 +57,12 @@
   // !case-card
   &--case {
     width: 306px;
+    @include transitions($args);
+
+    &:hover {
+      @include box-shadow($numbers-b-shadow);
+      @include transitions($args);
+    }
   }
 
   &__case__bottom {
