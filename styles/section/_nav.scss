@@ -7,6 +7,16 @@
   color: $color-white;
   background-color: $color-primary;
 
+  a {
+    color: $color-white;
+    @include transitions($args);
+
+    &:hover {
+      color: $color-black;
+      @include transitions($args);
+    }
+  }
+
   &__left {
     line-height: 35px;
     padding-right: 6px;
@@ -42,6 +52,11 @@
 
 .navbar {
   margin-top: 9px;
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
   &__brand {
     margin: 0 0 0 67px;
   }
@@ -53,11 +68,61 @@
   &__items {
     padding-left: 325px;
   }
+
   &__link {
     color: $color-cello;
     padding: 0 17px;
   }
+
   &__btn {
     padding-right: 62px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .topper {
+    display: none;
+  }
+
+  .navbar {
+    padding: 6px;
+
+    &__brand {
+      margin: 2px 0 0 0;
+    }
+
+    &__items {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+    }
+
+    &__link {
+      padding: 0 4px;
+    }
+
+    &__btn {
+      display: none;
+    }
+
+    &__collapse {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+    }
+
+    .burger-toggler {
+      display: block;
+      cursor: pointer;
+      margin-right: 12px;
+
+      div {
+        width: 24px;
+        height: 3px;
+        margin: 5px;
+        background-color: #000;
+      }
+    }
   }
 }
