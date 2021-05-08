@@ -115,7 +115,6 @@
       @include box-shadow($testimonials-avatar-shadow);
       height: 64px;
       width: 64px;
-      background-color: $color-nobel;
       border-radius: 50%;
       border: 2px solid $color-white;
     }
@@ -123,9 +122,11 @@
     .person-text {
       padding: 7px 0 0 18px;
     }
+
     .person-name {
       color: $color-black;
     }
+
     .person-title {
       color: #b4b4b4;
     }
