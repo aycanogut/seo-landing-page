@@ -9034,6 +9034,8 @@ input {
     padding: 19px 0 30px 0; }
   .footer__social {
     display: flex; }
+    .footer__social-text {
+      color: #fff; }
   .footer__social__icons {
     margin-top: -6px;
     padding-left: 15px; }

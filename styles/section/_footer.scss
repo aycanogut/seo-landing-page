@@ -17,12 +17,17 @@
 
   &__social {
     display: flex;
+
+    &-text {
+      color: $color-white;
+    }
   }
 
   &__social__icons {
     margin-top: -6px;
     padding-left: 15px;
   }
+
   &__icon {
     padding: 0 8px;
   }
