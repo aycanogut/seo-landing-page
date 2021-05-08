@@ -7,6 +7,7 @@
   &__heading {
     padding: 98px 0 60px 95px;
   }
+
   &__top {
     color: $color-primary;
     letter-spacing: 0.2px;
@@ -21,6 +22,7 @@
   &__cards:nth-child(odd) {
     margin-top: 146px;
   }
+
   &__cards:nth-child(even) {
     margin-left: 95px;
   }
@@ -36,6 +38,7 @@
   img:nth-child(1) {
     margin-right: -16px;
   }
+
   img:nth-child(5) {
     margin-left: -15px;
   }
