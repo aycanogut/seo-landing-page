@@ -8880,7 +8880,9 @@ input {
   .navbar__logo {
     color: #000; }
   .navbar__items {
-    padding-left: 325px; }
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0 0 325px; }
   .navbar__link {
     color: #233d63;
     padding: 0 17px; }
@@ -8891,26 +8893,44 @@ input {
   .topper {
     display: none; }
   .navbar {
-    padding: 6px; }
+    padding: 6px;
+    display: flex;
+    flex-direction: column; }
+    .navbar .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    .navbar__top {
+      display: flex;
+      flex-direction: row;
+      width: 100%; }
     .navbar__brand {
       margin: 2px 0 0 0; }
     .navbar__items {
       display: flex;
-      justify-content: space-between;
-      padding: 0; }
+      justify-content: column;
+      padding: 10px 0 0 0;
+      margin: auto; }
+      .navbar__items li {
+        display: flex;
+        flex-direction: column; }
     .navbar__link {
-      padding: 0 4px; }
+      display: block;
+      width: 100%;
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px; }
     .navbar__btn {
       display: none; }
-    .navbar__collapse {
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%; }
+    .navbar__items {
+      display: flex;
+      flex-direction: column; }
     .navbar .burger-toggler {
       display: block;
       cursor: pointer;
-      margin-right: 12px; }
+      margin-right: 6px;
+      margin-left: auto; }
       .navbar .burger-toggler div {
         width: 24px;
         height: 3px;

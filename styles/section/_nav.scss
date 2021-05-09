@@ -66,7 +66,9 @@
   }
 
   &__items {
-    padding-left: 325px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0 0 325px;
   }
 
   &__link {
@@ -86,6 +88,19 @@
 
   .navbar {
     padding: 6px;
+    display: flex;
+    flex-direction: column;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &__top {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
 
     &__brand {
       margin: 2px 0 0 0;
@@ -93,29 +108,39 @@
 
     &__items {
       display: flex;
-      justify-content: space-between;
-      padding: 0;
+      justify-content: column;
+      padding: 10px 0 0 0;
+      margin: auto;
+
+      li {
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     &__link {
-      padding: 0 4px;
+      display: block;
+      width: 100%;
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
     }
 
     &__btn {
       display: none;
     }
 
-    &__collapse {
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
+    &__items {
+      display: flex;
+      flex-direction: column;
     }
 
     .burger-toggler {
       display: block;
       cursor: pointer;
-      margin-right: 12px;
+      margin-right: 6px;
+      margin-left: auto;
 
       div {
         width: 24px;

@@ -7,7 +7,6 @@ const navSlide = () => {
     nav.classList.toggle('nav-active');
   });
 
-  navLinks.innerHTML = 'deneme';
 
 }
 

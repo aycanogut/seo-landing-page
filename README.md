@@ -11,3 +11,4 @@ This is my first project with front-end technologies. I learned concepts like us
 ##### [Original Design on Figma Community](https://www.figma.com/file/cCBnFoILY3vqGGbw74CNfT/SEO-Landing-Page?node-id=0%3A1&viewport=1035%2C120%2C0.24916347861289978)
 <br>
 <center>![alt seo-landing-page](./assets/img/project.gif) </center>
+
