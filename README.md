@@ -1,5 +1,5 @@
 ### About The Project
-This is my first project with front-end technologies. I learned concepts like usage of HTML and CSS, SASS structure, BEM methodology and pixel perfect design. Project is only available on desktop size but its still on development for small screens. 
+This is my first project with front-end technologies. It's a landing page that related to SEO services. I learned concepts like usage of HTML and CSS, SASS structure, BEM methodology and pixel perfect design. Project is only available on desktop size but its still on development for small screens. 
 ### Built With
 ● [HTML](https://html.spec.whatwg.org/)
 ● [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
