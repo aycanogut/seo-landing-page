@@ -152,6 +152,17 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .topper {
+    .row {
+      margin: 0;
+    }
+
+    &__left,
+    &__right {
+      padding: 0 40px;
+    }
+  }
+
   .navbar {
     &__items {
       padding: 0;
