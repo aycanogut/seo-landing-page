@@ -8893,9 +8893,9 @@ input {
   .topper {
     display: none; }
   .navbar {
-    padding: 6px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 6px; }
     .navbar .container {
       display: flex;
       flex-direction: column;
@@ -8906,14 +8906,6 @@ input {
       width: 100%; }
     .navbar__brand {
       margin: 2px 0 0 0; }
-    .navbar__items {
-      display: flex;
-      justify-content: column;
-      padding: 10px 0 0 0;
-      margin: auto; }
-      .navbar__items li {
-        display: flex;
-        flex-direction: column; }
     .navbar__link {
       display: block;
       width: 100%;
@@ -8924,18 +8916,26 @@ input {
     .navbar__btn {
       display: none; }
     .navbar__items {
-      display: flex;
-      flex-direction: column; }
+      position: absolute;
+      top: 0;
+      display: none;
+      flex-direction: column;
+      margin: auto;
+      padding: 30px 0 0 0; }
     .navbar .burger-toggler {
       display: block;
       cursor: pointer;
       margin-right: 6px;
-      margin-left: auto; }
+      margin-left: auto;
+      z-index: 10; }
       .navbar .burger-toggler div {
         width: 24px;
         height: 3px;
         margin: 5px;
         background-color: #000; } }
+
+.navbar-toggle-show {
+  display: flex; }
 
 .hero {
   height: 547px;
