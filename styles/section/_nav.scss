@@ -114,6 +114,7 @@
       font-size: 20px;
       text-align: center;
       padding: 10px;
+      white-space: nowrap;
     }
 
     &__btn {
@@ -122,11 +123,15 @@
 
     &__items {
       position: absolute;
-      top: 0;
+      top: 40px;
       display: none;
       flex-direction: column;
+      z-index: 10;
+      width: 100%;
       margin: auto;
-      padding: 30px 0 0 0;
+      padding: 20px 10px;
+      background-color: $color-white;
+      box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
     }
 
     .burger-toggler {
@@ -146,6 +151,27 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    &__items {
+      padding: 0;
+      margin: 0;
+    }
+
+    &__btn {
+      display: none;
+    }
+  }
+}
+
 .navbar-toggle-show {
   display: flex;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    &__items {
+      padding: 16px 0 0 150px;
+    }
+  }
 }

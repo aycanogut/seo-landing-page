@@ -8912,16 +8912,21 @@ input {
       text-transform: uppercase;
       font-size: 20px;
       text-align: center;
-      padding: 10px; }
+      padding: 10px;
+      white-space: nowrap; }
     .navbar__btn {
       display: none; }
     .navbar__items {
       position: absolute;
-      top: 0;
+      top: 40px;
       display: none;
       flex-direction: column;
+      z-index: 10;
+      width: 100%;
       margin: auto;
-      padding: 30px 0 0 0; }
+      padding: 20px 10px;
+      background-color: #fff;
+      box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3); }
     .navbar .burger-toggler {
       display: block;
       cursor: pointer;
@@ -8934,8 +8939,19 @@ input {
         margin: 5px;
         background-color: #000; } }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar__items {
+    padding: 0;
+    margin: 0; }
+  .navbar__btn {
+    display: none; } }
+
 .navbar-toggle-show {
   display: flex; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar__items {
+    padding: 16px 0 0 150px; } }
 
 .hero {
   height: 547px;
@@ -8955,6 +8971,10 @@ input {
     height: 466px;
     background-image: url("../assets/img/hero/hero-bg.svg");
     background-repeat: no-repeat; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .hero__illustration {
+    display: none; } }
 
 .numbers {
   height: 600px;
