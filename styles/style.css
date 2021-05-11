@@ -8980,9 +8980,45 @@ input {
     background-image: url("../assets/img/hero/hero-bg.svg");
     background-repeat: no-repeat; }
 
-@media (min-width: 320px) and (max-width: 767px) {
-  .hero__illustration {
-    display: none; } }
+@media (min-width: 320px) and (max-width: 576px) {
+  .hero {
+    padding: 0;
+    text-align: center; }
+    .hero__inner {
+      margin: 12% 0 0 0; }
+    .hero__title {
+      padding: 12px 0; }
+    .hero__text {
+      padding: 26px 0; }
+    .hero__illustration {
+      display: none; } }
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .hero {
+    padding: 0;
+    text-align: center; }
+    .hero__inner {
+      margin: 12% 0 0 0; }
+    .hero__title {
+      padding: 24px 0; }
+    .hero__text {
+      padding: 32px 0; }
+    .hero__btn {
+      padding: 40px 0; }
+      .hero__btn .btn_def {
+        padding: 13px 100px; }
+    .hero__illustration {
+      display: none; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero {
+    padding: 0; }
+    .hero__inner {
+      margin: 12% 0 0 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero__inner {
+    margin: 100px 0 0 0; } }
 
 .numbers {
   height: 600px;
