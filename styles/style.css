@@ -9042,6 +9042,13 @@ input {
   .numbers__title {
     color: #222a41; }
 
+@media (min-width: 320px) and (max-width: 991px) {
+  .numbers {
+    height: auto;
+    padding-bottom: 50px; }
+    .numbers .cards--numbers {
+      margin: 0 auto; } }
+
 .services {
   height: 1153px;
   padding: 0 135px; }

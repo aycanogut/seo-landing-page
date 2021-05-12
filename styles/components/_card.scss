@@ -1,7 +1,7 @@
 // cards
 
 .cards {
-  // !numbers-card
+  // numbers-card
   &--numbers {
     width: 253px;
     height: 180px;
@@ -28,7 +28,7 @@
     color: $color-ebony;
   }
 
-  // !services-card
+  // services-card
   &--services {
     width: 306px;
     height: 343px;
@@ -60,7 +60,7 @@
     color: $color-pale;
   }
 
-  // !case-card
+  // case-card
   &--case {
     width: 306px;
     @include transitions($args);
@@ -87,7 +87,7 @@
     letter-spacing: 0.2px;
   }
 
-  // !testimonials-card
+  // testimonials-card
   &--testimonials {
     width: 445px;
     height: 268px;
