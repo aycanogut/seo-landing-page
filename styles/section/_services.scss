@@ -19,3 +19,9 @@
     letter-spacing: 0.3px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .services {
+    padding: 0;
+  }
+}

@@ -9062,6 +9062,10 @@ input {
     color: #222a41;
     letter-spacing: 0.3px; }
 
+@media (min-width: 320px) and (max-width: 991px) {
+  .services {
+    padding: 0; } }
+
 .case {
   height: 692px; }
   .case__heading {
