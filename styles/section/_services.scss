@@ -23,5 +23,23 @@
 @media (min-width: 320px) and (max-width: 991px) {
   .services {
     padding: 0;
+    height: auto;
+
+    .cards--services {
+      width: auto;
+      height: auto;
+      padding: 50px 10px;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .services {
+    padding: 0;
+    height: auto;
+
+    .cards--services {
+      margin: 20px auto;
+    }
   }
 }
