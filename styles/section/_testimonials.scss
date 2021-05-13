@@ -57,6 +57,45 @@
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
+  .testimonials {
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+
+    &__heading {
+      padding: 0 0 50px 0;
+    }
+
+    &__cards {
+      margin: 0;
+      padding: 0;
+
+      .cards--testimonials {
+        width: auto;
+        height: auto;
+        text-align: start;
+      }
+
+      .cards__testimonials__person-card {
+        padding: 12px 12px 24px 24px;
+
+        .person-text {
+          width: 100%;
+          text-align: center;
+        }
+      }
+
+      &:nth-child(2n),
+      &:nth-child(2n + 1) {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    &__bottom {
+      flex-direction: column;
+    }
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

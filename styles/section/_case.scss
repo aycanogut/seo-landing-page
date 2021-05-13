@@ -33,6 +33,7 @@
 @media (min-width: 320px) and (max-width: 991px) {
   .case {
     padding: 0;
+    height: auto;
 
     &__column {
       justify-content: center;
@@ -50,6 +51,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   .case {
     padding: 0;
+    height: auto;
 
     &__column {
       justify-content: center;

@@ -9099,7 +9099,8 @@ input {
 
 @media (min-width: 320px) and (max-width: 991px) {
   .case {
-    padding: 0; }
+    padding: 0;
+    height: auto; }
     .case__column {
       justify-content: center;
       padding: 0;
@@ -9109,7 +9110,8 @@ input {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .case {
-    padding: 0; }
+    padding: 0;
+    height: auto; }
     .case__column {
       justify-content: center;
       padding: 0; }
@@ -9146,6 +9148,31 @@ input {
     color: #000; }
   .testimonials .person-name {
     color: #222a41; }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .testimonials {
+    height: auto;
+    padding: 50px 0;
+    text-align: center; }
+    .testimonials__heading {
+      padding: 0 0 50px 0; }
+    .testimonials__cards {
+      margin: 0;
+      padding: 0; }
+      .testimonials__cards .cards--testimonials {
+        width: auto;
+        height: auto;
+        text-align: start; }
+      .testimonials__cards .cards__testimonials__person-card {
+        padding: 12px 12px 24px 24px; }
+        .testimonials__cards .cards__testimonials__person-card .person-text {
+          width: 100%;
+          text-align: center; }
+      .testimonials__cards:nth-child(2n), .testimonials__cards:nth-child(2n + 1) {
+        margin: 0;
+        padding: 0; }
+    .testimonials__bottom {
+      flex-direction: column; } }
 
 .contact {
   height: 558px; }
