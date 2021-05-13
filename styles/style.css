@@ -9097,6 +9097,25 @@ input {
   .case__column:nth-last-child(1) {
     margin-left: -44px; }
 
+@media (min-width: 320px) and (max-width: 991px) {
+  .case {
+    padding: 0; }
+    .case__column {
+      justify-content: center;
+      padding: 0;
+      margin: 50px 0; }
+      .case__column:nth-child(1), .case__column:nth-last-child(1) {
+        margin: 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .case {
+    padding: 0; }
+    .case__column {
+      justify-content: center;
+      padding: 0; }
+      .case__column:nth-child(1), .case__column:nth-last-child(1) {
+        margin: 0; } }
+
 .testimonials {
   height: 1081px;
   background-color: #ecf5ff; }
