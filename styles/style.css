@@ -9149,7 +9149,7 @@ input {
   .testimonials .person-name {
     color: #222a41; }
 
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 320px) and (max-width: 577px) {
   .testimonials {
     height: auto;
     padding: 50px 0;
@@ -9162,9 +9162,11 @@ input {
       .testimonials__cards .cards--testimonials {
         width: auto;
         height: auto;
-        text-align: start; }
+        text-align: justify; }
+      .testimonials__cards .cards__testimonials__text {
+        padding: 20px; }
       .testimonials__cards .cards__testimonials__person-card {
-        padding: 12px 12px 24px 24px; }
+        padding: 12px 12px 24px 13%; }
         .testimonials__cards .cards__testimonials__person-card .person-text {
           width: 100%;
           text-align: center; }
@@ -9173,6 +9175,22 @@ input {
         padding: 0; }
     .testimonials__bottom {
       flex-direction: column; } }
+
+@media (min-width: 578px) and (max-width: 767px) {
+  .testimonials__cards .cards--testimonials {
+    text-align: center; }
+  .testimonials__cards .cards__testimonials__text {
+    padding: 20px; }
+  .testimonials__cards .cards__testimonials__person-card {
+    padding: 0 12px 24px 20%; }
+    .testimonials__cards .cards__testimonials__person-card .person-text {
+      width: 100%;
+      text-align: center; }
+  .testimonials__cards:nth-child(2n), .testimonials__cards:nth-child(2n + 1) {
+    margin: 0;
+    padding: 0; }
+  .testimonials__bottom {
+    flex-direction: column; } }
 
 .contact {
   height: 558px; }
