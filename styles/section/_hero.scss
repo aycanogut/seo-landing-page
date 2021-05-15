@@ -49,6 +49,12 @@
     &__illustration {
       display: none;
     }
+
+    &__btn {
+      a {
+        padding: 13px 80px;
+      }
+    }
   }
 }
 

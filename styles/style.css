@@ -8991,7 +8991,9 @@ input {
     .hero__text {
       padding: 26px 0; }
     .hero__illustration {
-      display: none; } }
+      display: none; }
+    .hero__btn a {
+      padding: 13px 80px; } }
 
 @media (min-width: 577px) and (max-width: 767px) {
   .hero {
