@@ -58,7 +58,11 @@
     height: auto;
 
     &__wrapper {
-      padding: 50px 20px;
+      padding: 50px 1%;
+    }
+
+    &__links {
+      padding: 0 5%;
     }
   }
 }
