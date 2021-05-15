@@ -9354,12 +9354,24 @@ input {
 
 @media (min-width: 578px) and (max-width: 767px) {
   .footer {
-    height: auto; } }
+    height: auto; }
+    .footer__wrapper {
+      padding: 50px 1%; }
+    .footer__links {
+      padding: 0 4%; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .footer {
-    height: auto; } }
+    height: auto; }
+    .footer__wrapper {
+      padding: 50px 0; }
+    .footer__links {
+      padding: 0; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .footer {
-    height: auto; } }
+    height: auto; }
+    .footer__wrapper {
+      padding: 50px 7%; }
+    .footer__links {
+      padding: 0 2%; } }
