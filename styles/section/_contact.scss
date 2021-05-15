@@ -70,15 +70,32 @@
     &__formaction {
       padding: 50px 10%;
     }
+
+    &__btn {
+      margin-top: 50px;
+      a {
+        padding: 12px 50px;
+      }
+    }
   }
 }
 
 @media (min-width: 578px) and (max-width: 767px) {
   .contact {
     height: auto;
+    text-align: center;
+    padding: 50px 0 20px 0;
 
     &__header {
       padding: 0;
+    }
+
+    &__phone {
+      padding: 0;
+    }
+
+    &__formaction {
+      padding: 50px 10%;
     }
   }
 }

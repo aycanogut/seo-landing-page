@@ -9273,13 +9273,23 @@ input {
     .contact__phone {
       padding: 0; }
     .contact__formaction {
-      padding: 50px 10%; } }
+      padding: 50px 10%; }
+    .contact__btn {
+      margin-top: 50px; }
+      .contact__btn a {
+        padding: 12px 50px; } }
 
 @media (min-width: 578px) and (max-width: 767px) {
   .contact {
-    height: auto; }
+    height: auto;
+    text-align: center;
+    padding: 50px 0 20px 0; }
     .contact__header {
-      padding: 0; } }
+      padding: 0; }
+    .contact__phone {
+      padding: 0; }
+    .contact__formaction {
+      padding: 50px 10%; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .contact {
