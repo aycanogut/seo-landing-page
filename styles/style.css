@@ -8993,7 +8993,7 @@ input {
     .hero__illustration {
       display: none; }
     .hero__btn a {
-      padding: 13px 80px; } }
+      padding: 13px 70px; } }
 
 @media (min-width: 577px) and (max-width: 767px) {
   .hero {
@@ -9279,7 +9279,7 @@ input {
     .contact__btn {
       margin-top: 50px; }
       .contact__btn a {
-        padding: 13px 80px; } }
+        padding: 13px 70px; } }
 
 @media (min-width: 578px) and (max-width: 767px) {
   .contact {
