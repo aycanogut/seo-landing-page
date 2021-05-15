@@ -9067,7 +9067,8 @@ input {
 @media (min-width: 320px) and (max-width: 991px) {
   .services {
     padding: 0;
-    height: auto; }
+    height: auto;
+    text-align: center; }
     .services .cards--services {
       width: auto;
       height: auto;
