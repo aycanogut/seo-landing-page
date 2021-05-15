@@ -9291,7 +9291,11 @@ input {
     .contact__phone {
       padding: 0; }
     .contact__formaction {
-      padding: 50px 10%; } }
+      padding: 50px 10%; }
+    .contact__btn {
+      margin-top: 40px; }
+      .contact__btn a {
+        padding: 13px 80px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .contact {
