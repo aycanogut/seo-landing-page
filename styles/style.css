@@ -9299,9 +9299,18 @@ input {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .contact {
-    height: auto; }
+    height: auto;
+    padding: 50px 0; }
     .contact__header {
-      padding: 0; } }
+      padding: 0; }
+    .contact__phone {
+      padding: 0; }
+    .contact__formaction {
+      padding: 50px 10%; }
+    .contact__btn {
+      margin-top: 30px; }
+      .contact__btn a {
+        padding: 13px 70px; } }
 
 .footer {
   height: 416px;
