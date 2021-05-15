@@ -52,3 +52,31 @@
     margin-left: -10px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 577px) {
+  .footer {
+    height: auto;
+
+    &__wrapper {
+      padding: 50px 20px;
+    }
+  }
+}
+
+@media (min-width: 578px) and (max-width: 767px) {
+  .footer {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer {
+    height: auto;
+  }
+}
