@@ -9100,7 +9100,8 @@ input {
 @media (min-width: 320px) and (max-width: 991px) {
   .case {
     padding: 0;
-    height: auto; }
+    height: auto;
+    margin-bottom: 40px; }
     .case__column {
       justify-content: center;
       padding: 0;
