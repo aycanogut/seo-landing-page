@@ -9263,6 +9263,30 @@ input {
   .contact .number {
     color: #459eff; }
 
+@media (min-width: 320px) and (max-width: 577px) {
+  .contact {
+    height: auto;
+    text-align: center;
+    padding: 50px 0 20px 0; }
+    .contact__header {
+      padding: 0; }
+    .contact__phone {
+      padding: 0; }
+    .contact__formaction {
+      padding: 50px 10%; } }
+
+@media (min-width: 578px) and (max-width: 767px) {
+  .contact {
+    height: auto; }
+    .contact__header {
+      padding: 0; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact {
+    height: auto; }
+    .contact__header {
+      padding: 0; } }
+
 .footer {
   height: 416px;
   background-color: #459eff;
