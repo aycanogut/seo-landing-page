@@ -9069,6 +9069,8 @@ input {
     padding: 0;
     height: auto;
     text-align: center; }
+    .services__header {
+      padding: 0 10px; }
     .services .cards--services {
       width: auto;
       height: auto;
@@ -9171,7 +9173,7 @@ input {
       .testimonials__cards .cards__testimonials__text {
         padding: 20px; }
       .testimonials__cards .cards__testimonials__person-card {
-        padding: 12px 12px 24px 13%; }
+        padding: 12px 12px 24px 8%; }
         .testimonials__cards .cards__testimonials__person-card .person-text {
           width: 100%;
           text-align: center; }
@@ -9179,7 +9181,8 @@ input {
         margin: 0;
         padding: 0; }
     .testimonials__bottom {
-      flex-direction: column; } }
+      flex-direction: column;
+      padding: 0 50px; } }
 
 @media (min-width: 578px) and (max-width: 767px) {
   .testimonials {

@@ -82,7 +82,7 @@
       }
 
       .cards__testimonials__person-card {
-        padding: 12px 12px 24px 13%;
+        padding: 12px 12px 24px 8%;
 
         .person-text {
           width: 100%;
@@ -99,6 +99,7 @@
 
     &__bottom {
       flex-direction: column;
+      padding: 0 50px;
     }
   }
 }

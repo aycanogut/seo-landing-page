@@ -26,6 +26,10 @@
     height: auto;
     text-align: center;
 
+    &__header {
+      padding: 0 10px;
+    }
+
     .cards--services {
       width: auto;
       height: auto;
