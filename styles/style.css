@@ -9102,7 +9102,7 @@ input {
 
 @media (min-width: 320px) and (max-width: 991px) {
   .case {
-    padding: 0;
+    padding: 0 0 100px 0;
     height: auto;
     margin-bottom: 40px; }
     .case__column {
