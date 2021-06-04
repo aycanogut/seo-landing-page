@@ -8887,7 +8887,7 @@ input {
   .navbar__btn {
     padding-right: 62px; }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@include media(">=xs", "<md")  {
   .topper {
     display: none; }
   .navbar {

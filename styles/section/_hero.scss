@@ -29,7 +29,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 576px) {
+@include media(">=xs", "<=sm") {
   .hero {
     padding: 0;
     text-align: center;
@@ -58,7 +58,7 @@
   }
 }
 
-@media (min-width: 577px) and (max-width: 767px) {
+@include media(">=xs", "<=md") {
   .hero {
     padding: 0;
     text-align: center;
@@ -89,7 +89,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@include media(">md", "<lg") {
   .hero {
     padding: 0;
 
@@ -99,7 +99,7 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include media(">lg", "<=xl") {
   .hero {
     &__inner {
       margin: 100px 0 0 0;

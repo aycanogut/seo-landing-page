@@ -53,7 +53,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 577px) {
+@include media(">=xs", "<=sm") {
   .footer {
     height: auto;
 
@@ -67,7 +67,7 @@
   }
 }
 
-@media (min-width: 578px) and (max-width: 767px) {
+@include media(">=sm", "<=md") {
   .footer {
     height: auto;
 
@@ -81,7 +81,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@include media(">md", "<lg") {
   .footer {
     height: auto;
 
@@ -95,7 +95,7 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include media(">lg", "<=xl") {
   .footer {
     height: auto;
 

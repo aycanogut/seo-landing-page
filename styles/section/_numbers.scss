@@ -35,7 +35,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 991px) {
+@include media(">=xs", "<=lg") {
   .numbers {
     height: auto;
     padding-bottom: 50px;

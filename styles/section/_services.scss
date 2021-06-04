@@ -20,7 +20,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 991px) {
+@include media(">=xs", "<=lg") {
   .services {
     padding: 0;
     height: auto;
@@ -38,7 +38,7 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include media(">lg", "<=xl") {
   .services {
     padding: 0;
     height: auto;

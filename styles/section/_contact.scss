@@ -53,7 +53,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 577px) {
+@include media(">=xs", "<=sm") {
   .contact {
     height: auto;
     text-align: center;
@@ -81,7 +81,7 @@
   }
 }
 
-@media (min-width: 578px) and (max-width: 767px) {
+@include media(">=sm", "<=md") {
   .contact {
     height: auto;
     text-align: center;
@@ -109,7 +109,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@include media(">md", "<lg") {
   .contact {
     height: auto;
     padding: 50px 0;
@@ -136,5 +136,5 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include media(">lg", "<=xl") {
 }
