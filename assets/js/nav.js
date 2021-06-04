@@ -1,4 +1,3 @@
-$('.burger-toggler').click(function () {
-  $('.navbar__items').toggleClass("navbar-toggle-show");
-  return false;
-});
+const showNav = () => {
+  document.querySelector('.navbar__items').classList.toggle('navbar-toggle-show');
+}

@@ -8919,14 +8919,15 @@ input {
     .navbar__items {
       position: absolute;
       top: 40px;
-      display: none;
+      left: -100%;
       flex-direction: column;
       z-index: 10;
       width: 100%;
       margin: auto;
       padding: 20px 10px;
       background-color: #fff;
-      box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3); }
+      box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
+      transition: 0.4s; }
     .navbar .burger-toggler {
       display: block;
       cursor: pointer;
@@ -8950,9 +8951,6 @@ input {
   .navbar__btn {
     display: none; } }
 
-.navbar-toggle-show {
-  display: flex; }
-
 @media (min-width: 992px) and (max-width: 1199px) {
   .topper .row {
     margin: 0; }
@@ -8960,6 +8958,9 @@ input {
     padding: 0 20px; }
   .navbar__items {
     padding: 16px 0 0 150px; } }
+
+.navbar-toggle-show {
+  left: 0; }
 
 .hero {
   height: 547px;
