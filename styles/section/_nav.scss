@@ -152,7 +152,7 @@
   }
 }
 
-@include media("=>md", "<=lg") {
+@include media("md", "<=lg") {
   .topper {
     .row {
       margin: 0;

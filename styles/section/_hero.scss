@@ -89,7 +89,7 @@
   }
 }
 
-@include media("=>md", "<=lg") {
+@include media("md", "<=lg") {
   .hero {
     padding: 0;
 
