@@ -89,7 +89,7 @@
   }
 }
 
-@include media(">md", "<lg") {
+@include media("=>md", "<=lg") {
   .hero {
     padding: 0;
 
@@ -99,7 +99,7 @@
   }
 }
 
-@include media(">lg", "<=xl") {
+@include media("=>lg", "<=xl") {
   .hero {
     &__inner {
       margin: 100px 0 0 0;
