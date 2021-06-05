@@ -109,7 +109,7 @@
   }
 }
 
-@include media("=>md", "<=lg") {
+@include media(">=md", "<=lg") {
   .contact {
     height: auto;
     padding: 50px 0;
@@ -136,5 +136,5 @@
   }
 }
 
-@include media("=>lg", "<=xl") {
+@include media(">=lg", "<=xl") {
 }

@@ -58,7 +58,7 @@
   }
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@include media(">=xs", "<=md") {
   .hero {
     padding: 0;
     text-align: center;
@@ -89,7 +89,7 @@
   }
 }
 
-@include media("md", "<=lg") {
+@include media(">=md", "<=lg") {
   .hero {
     padding: 0;
 
@@ -99,7 +99,7 @@
   }
 }
 
-@include media("=>lg", "<=xl") {
+@include media("<=lg", "<=xl") {
   .hero {
     &__inner {
       margin: 100px 0 0 0;
