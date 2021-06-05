@@ -58,7 +58,7 @@
   }
 }
 
-@include media(">=xs", "<=md") {
+@media (min-width: 577px) and (max-width: 768px) {
   .hero {
     padding: 0;
     text-align: center;
