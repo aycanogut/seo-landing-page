@@ -1,4 +1,4 @@
-### About The Project
+### SEO Landing Page
 This is my first project with front-end technologies. It's a landing page that related to SEO services. I learned concepts like usage of HTML and CSS, SASS structure, BEM methodology and pixel perfect design.
 ### Built With
 ● [HTML](https://html.spec.whatwg.org/)  
