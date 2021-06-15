@@ -8612,6 +8612,42 @@ a {
 input {
   display: block; }
 
+@font-face {
+  font-family: "Livvic";
+  src: url("livvic-extralight-webfont.woff2") format("woff2"), url("livvic-extralight-webfont.woff") format("woff");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Livvic";
+  src: url("livvic-light-webfont.woff2") format("woff2"), url("livvic-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Livvic";
+  src: url("livvic-regular-webfont.woff2") format("woff2"), url("livvic-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Livvic";
+  src: url("livvic-medium-webfont.woff2") format("woff2"), url("livvic-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Livvic";
+  src: url("livvic-semibold-webfont.woff2") format("woff2"), url("livvic-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Livvic";
+  src: url("/assets/fonts/livvic-bold-webfont.woff2") format("woff2"), url("livvic-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
 .font-13 {
   font-size: 13px; }
 
