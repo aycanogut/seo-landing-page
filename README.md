@@ -13,3 +13,6 @@ This is my first project with front-end technologies. It's a landing page that r
 ![alt seo-landing-page](https://s3.gifyu.com/images/project.gif)
 
 
+## License
+
+Licensed under the MIT license, see [LICENSE](https://github.com/aycanogut/seo-landing-page/blob/master/LICENSE) for details.
